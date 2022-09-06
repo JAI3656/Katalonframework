@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Record_mobile" time="311.774" tests="1" failures="0" errors="0">
+   <testsuite name="Record_mobile" tests="1" failures="0" errors="0" time="311.774" skipped="0" timestamp="2022-08-31 10:48:34" hostname="upadh - 192.168.1.38" id="Test Suites/Mobile_testsuite/Record_mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Mobile_testsuite\\Record_mobile\\20220831_104739"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Mobile_testsuite\\Record_mobile\\20220831_104739\\appium.log, C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Mobile_testsuite\\Record_mobile\\20220831_104739\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recordmobile/Recordmobile_testcase" time="307.561" classname="Test Cases/Demo_recordmobile/Recordmobile_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 10:48:38 - [TEST_CASE][PASSED] - Test Cases/Demo_recordmobile/Recordmobile_testcase: Test Cases/Demo_recordmobile/Recordmobile_testcase
+
+2022-08-31 10:48:44 - [TEST_STEP][PASSED] - startApplication(Url, true): Started app at: 'C:\Users\upadh\Katalon Studio\Katalonframework\Application\eribank.apk'
+
+2022-08-31 10:48:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-08-31 10:49:00 - [MESSAGE][INFO] - Appium server started on port 54,564
+
+2022-08-31 10:51:24 - [MESSAGE][PASSED] - Started app at: 'C:\Users\upadh\Katalon Studio\Katalonframework\Application\eribank.apk'
+
+2022-08-31 10:51:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Username"), Username, 0): Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Username'
+
+2022-08-31 10:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:34 - [MESSAGE][PASSED] - Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Username'
+
+2022-08-31 10:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Password"), Password, 0): Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Password'
+
+2022-08-31 10:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:36 - [MESSAGE][PASSED] - Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Password'
+
+2022-08-31 10:51:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Login'
+
+2022-08-31 10:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Login'
+
+2022-08-31 10:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Make Payment"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Make Payment'
+
+2022-08-31 10:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Make Payment'
+
+2022-08-31 10:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Phone"), Phonenumber, 0): Text '9891684390' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Phone'
+
+2022-08-31 10:51:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:56 - [MESSAGE][PASSED] - Text '9891684390' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Phone'
+
+2022-08-31 10:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Name"), Name, 0): Text 'Jai' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Name'
+
+2022-08-31 10:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:03 - [MESSAGE][PASSED] - Text 'Jai' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Name'
+
+2022-08-31 10:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Amount"), Amount, 0): Text '6800' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Amount'
+
+2022-08-31 10:52:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:08 - [MESSAGE][PASSED] - Text '6800' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Amount'
+
+2022-08-31 10:52:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Select"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Select'
+
+2022-08-31 10:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Select'
+
+2022-08-31 10:52:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.TextView - India"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.TextView - India'
+
+2022-08-31 10:52:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.TextView - India'
+
+2022-08-31 10:52:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Send Payment"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Send Payment'
+
+2022-08-31 10:52:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Send Payment'
+
+2022-08-31 10:52:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Yes"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Yes'
+
+2022-08-31 10:52:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Yes'
+
+2022-08-31 10:52:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Logout"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Logout'
+
+2022-08-31 10:52:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Logout'
+
+2022-08-31 10:52:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-08-31 10:53:45 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-31 10:48:34 - [TEST_SUITE][PASSED] - Record_mobile: Test Cases/Demo_recordmobile/Recordmobile_testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

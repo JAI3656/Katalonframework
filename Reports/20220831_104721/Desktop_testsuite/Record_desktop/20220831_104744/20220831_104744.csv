@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Record_desktop,,,,2022-08-31 10:55:07,2022-08-31 10:58:45,3m - 38.179s,PASSED
+,,,,,,,
+Test Cases/Demo_recorddesktop/Record_testcase,,,,2022-08-31 10:55:15,2022-08-31 10:58:45,3m - 30.003s,PASSED
+"startApplicationWithTitle(Url, ""Orders - Untitled"")",,,,2022-08-31 10:55:39,2022-08-31 10:56:24,44.753s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Button""))",,,,2022-08-31 10:56:24,2022-08-31 10:56:32,8.313s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit""))",,,,2022-08-31 10:56:32,2022-08-31 10:56:37,5.258s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit""), Customername)",,,,2022-08-31 10:56:37,2022-08-31 10:56:50,12.822s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(1)""))",,,,2022-08-31 10:56:50,2022-08-31 10:56:56,5.541s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(1)""), street)",,,,2022-08-31 10:56:56,2022-08-31 10:57:09,13.140s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(2)""))",,,,2022-08-31 10:57:09,2022-08-31 10:57:14,5.091s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(2)""), city)",,,,2022-08-31 10:57:14,2022-08-31 10:57:26,12.062s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(3)""))",,,,2022-08-31 10:57:26,2022-08-31 10:57:31,4.609s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(3)""), state)",,,,2022-08-31 10:57:31,2022-08-31 10:57:41,10.329s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(4)""))",,,,2022-08-31 10:57:41,2022-08-31 10:57:45,3.994s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(4)""), zip)",,,,2022-08-31 10:57:45,2022-08-31 10:57:55,9.961s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/RadioButton""))",,,,2022-08-31 10:57:55,2022-08-31 10:57:59,3.757s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(5)""))",,,,2022-08-31 10:57:59,2022-08-31 10:58:03,4.344s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Edit(5)""), cardnumber)",,,,2022-08-31 10:58:03,2022-08-31 10:58:14,10.929s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Pane""))",,,,2022-08-31 10:58:14,2022-08-31 10:58:19,5.207s,PASSED
+"setText(findWindowsObject(""Object Repository/Demo_recorddesktop/Pane""), expirationdate)",,,,2022-08-31 10:58:19,2022-08-31 10:58:35,15.609s,PASSED
+"click(findWindowsObject(""Object Repository/Demo_recorddesktop/Button(1)""))",,,,2022-08-31 10:58:35,2022-08-31 10:58:40,5.174s,PASSED
+closeApplication(),,,,2022-08-31 10:58:40,2022-08-31 10:58:45,5.433s,PASSED

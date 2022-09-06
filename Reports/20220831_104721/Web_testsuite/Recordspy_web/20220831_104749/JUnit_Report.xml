@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Recordspy_web" time="252.888" tests="2" failures="0" errors="0">
+   <testsuite name="Recordspy_web" tests="2" failures="0" errors="0" time="252.888" skipped="0" timestamp="2022-08-31 10:59:33" hostname="upadh - 192.168.1.38" id="Test Suites/Web_testsuite/Recordspy_web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Web_testsuite\\Recordspy_web\\20220831_104749"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Web_testsuite\\Recordspy_web\\20220831_104749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="sessionId" value="68f1b23d86f34631be4decb7f649c75b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recordweb/Recordweb_testcase" time="103.804" classname="Test Cases/Demo_recordweb/Recordweb_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 10:59:35 - [TEST_CASE][PASSED] - Test Cases/Demo_recordweb/Recordweb_testcase: Test Cases/Demo_recordweb/Recordweb_testcase
+
+2022-08-31 10:59:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-31 10:59:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-31 10:59:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-31 11:00:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-31 11:00:03 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-08-31 11:00:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-08-31 11:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2022-08-31 11:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2022-08-31 11:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-08-31 11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-08-31 11:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username"), Username): Text 'John Doe' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username'
+
+2022-08-31 11:00:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username'
+
+2022-08-31 11:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-08-31 11:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-08-31 11:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password'
+
+2022-08-31 11:00:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password'
+
+2022-08-31 11:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-31 11:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-31 11:00:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-08-31 11:00:50 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-08-31 11:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-08-31 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-08-31 11:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2022-08-31 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2022-08-31 11:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2022-08-31 11:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2022-08-31 11:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10' is clicked on
+
+2022-08-31 11:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10' is clicked on
+
+2022-08-31 11:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment"), Comment): Text 'Hello' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-08-31 11:00:57 - [MESSAGE][PASSED] - Text 'Hello' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-08-31 11:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-31 11:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-31 11:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2022-08-31 11:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo_spyweb/Spyweb_testcase" time="145.61" classname="Test Cases/Demo_spyweb/Spyweb_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 11:01:20 - [TEST_CASE][PASSED] - Test Cases/Demo_spyweb/Spyweb_testcase: Test Cases/Demo_spyweb/Spyweb_testcase
+
+2022-08-31 11:01:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-31 11:01:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-31 11:02:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-31 11:02:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-31 11:02:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-31 11:02:27 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-08-31 11:02:32 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-08-31 11:02:32 - [TEST_STEP][PASSED] - setText(findTestObject("Demo_spyweb/Page_OrangeHRM/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Username_username'
+
+2022-08-31 11:02:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Username_username'
+
+2022-08-31 11:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("Demo_spyweb/Page_OrangeHRM/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Password_password'
+
+2022-08-31 11:02:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Password_password'
+
+2022-08-31 11:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Demo_spyweb/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/button_Login' is clicked on
+
+2022-08-31 11:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/button_Login' is clicked on
+
+2022-08-31 11:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Demo_spyweb/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout' is clicked on
+
+2022-08-31 11:03:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/header/div/div[2]/ul/li/ul/li[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-31 11:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout'. Try using Self-healing.
+
+2022-08-31 11:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/preceding::a[1]'.
+
+2022-08-31 11:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout' is clicked on
+
+2022-08-31 11:03:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-31 11:03:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-31 10:59:33 - [TEST_SUITE][PASSED] - Recordspy_web: Test Cases/Demo_spyweb/Spyweb_testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

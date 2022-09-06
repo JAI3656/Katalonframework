@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Record_mobile,,,,2022-09-01 12:41:14,2022-09-01 12:48:59,7m - 44.854s,PASSED
+,,,,,,,
+Test Cases/Demo_recordmobile/Recordmobile_testcase,,,,2022-09-01 12:41:20,2022-09-01 12:48:59,7m - 39.542s,PASSED
+"startApplication(Url, true)",,,,2022-09-01 12:41:35,2022-09-01 12:46:20,4m - 44.979s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordmobile/android.widget.EditText - Username""), Username, 0)",,,,2022-09-01 12:46:20,2022-09-01 12:46:37,17.176s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordmobile/android.widget.EditText - Password""), Password, 0)",,,,2022-09-01 12:46:37,2022-09-01 12:46:41,4.706s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.Button - Login""), 0)",,,,2022-09-01 12:46:41,2022-09-01 12:46:43,1.725s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.Button - Make Payment""), 0)",,,,2022-09-01 12:46:43,2022-09-01 12:47:11,28.076s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordmobile/android.widget.EditText - Phone""), Phonenumber, 0)",,,,2022-09-01 12:47:11,2022-09-01 12:47:18,7.225s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordmobile/android.widget.EditText - Name""), Name, 0)",,,,2022-09-01 12:47:18,2022-09-01 12:47:28,9.529s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordmobile/android.widget.EditText - Amount""), Amount, 0)",,,,2022-09-01 12:47:28,2022-09-01 12:47:41,13.170s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.Button - Select""), 0)",,,,2022-09-01 12:47:41,2022-09-01 12:48:05,24.089s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.TextView - India""), 0)",,,,2022-09-01 12:48:05,2022-09-01 12:48:16,10.401s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.Button - Send Payment""), 0)",,,,2022-09-01 12:48:16,2022-09-01 12:48:23,7.688s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.Button - Yes""), 0)",,,,2022-09-01 12:48:23,2022-09-01 12:48:27,3.787s,PASSED
+"tap(findTestObject(""Object Repository/Demo_recordmobile/android.widget.Button - Logout""), 0)",,,,2022-09-01 12:48:27,2022-09-01 12:48:32,5.245s,PASSED
+closeApplication(),,,,2022-09-01 12:48:32,2022-09-01 12:48:59,26.630s,PASSED

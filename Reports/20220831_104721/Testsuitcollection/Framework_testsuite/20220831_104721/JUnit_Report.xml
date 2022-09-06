@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Framework_testsuite" time="944.768" tests="4" failures="0" errors="0">
+   <testsuite name="Record_mobile" tests="1" failures="0" errors="0" time="311.774" skipped="0" timestamp="2022-08-31 10:48:34" hostname="upadh - 192.168.1.38" id="Test Suites/Mobile_testsuite/Record_mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Mobile_testsuite\\Record_mobile\\20220831_104739"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Mobile_testsuite\\Record_mobile\\20220831_104739\\appium.log, C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Mobile_testsuite\\Record_mobile\\20220831_104739\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recordmobile/Recordmobile_testcase" time="307.561" classname="Test Cases/Demo_recordmobile/Recordmobile_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 10:48:38 - [TEST_CASE][PASSED] - Test Cases/Demo_recordmobile/Recordmobile_testcase: Test Cases/Demo_recordmobile/Recordmobile_testcase
+
+2022-08-31 10:48:44 - [TEST_STEP][PASSED] - startApplication(Url, true): Started app at: 'C:\Users\upadh\Katalon Studio\Katalonframework\Application\eribank.apk'
+
+2022-08-31 10:48:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-08-31 10:49:00 - [MESSAGE][INFO] - Appium server started on port 54,564
+
+2022-08-31 10:51:24 - [MESSAGE][PASSED] - Started app at: 'C:\Users\upadh\Katalon Studio\Katalonframework\Application\eribank.apk'
+
+2022-08-31 10:51:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Username"), Username, 0): Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Username'
+
+2022-08-31 10:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:34 - [MESSAGE][PASSED] - Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Username'
+
+2022-08-31 10:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Password"), Password, 0): Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Password'
+
+2022-08-31 10:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:36 - [MESSAGE][PASSED] - Text 'company' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Password'
+
+2022-08-31 10:51:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Login'
+
+2022-08-31 10:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Login'
+
+2022-08-31 10:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Make Payment"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Make Payment'
+
+2022-08-31 10:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Make Payment'
+
+2022-08-31 10:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Phone"), Phonenumber, 0): Text '9891684390' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Phone'
+
+2022-08-31 10:51:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:51:56 - [MESSAGE][PASSED] - Text '9891684390' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Phone'
+
+2022-08-31 10:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Name"), Name, 0): Text 'Jai' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Name'
+
+2022-08-31 10:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:03 - [MESSAGE][PASSED] - Text 'Jai' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Name'
+
+2022-08-31 10:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordmobile/android.widget.EditText - Amount"), Amount, 0): Text '6800' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Amount'
+
+2022-08-31 10:52:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:08 - [MESSAGE][PASSED] - Text '6800' has been set to element 'Object Repository/Demo_recordmobile/android.widget.EditText - Amount'
+
+2022-08-31 10:52:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Select"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Select'
+
+2022-08-31 10:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Select'
+
+2022-08-31 10:52:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.TextView - India"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.TextView - India'
+
+2022-08-31 10:52:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.TextView - India'
+
+2022-08-31 10:52:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Send Payment"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Send Payment'
+
+2022-08-31 10:52:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Send Payment'
+
+2022-08-31 10:52:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Yes"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Yes'
+
+2022-08-31 10:52:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Yes'
+
+2022-08-31 10:52:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Demo_recordmobile/android.widget.Button - Logout"), 0): Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Logout'
+
+2022-08-31 10:52:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-31 10:52:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Demo_recordmobile/android.widget.Button - Logout'
+
+2022-08-31 10:52:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-08-31 10:53:45 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-31 10:48:34 - [TEST_SUITE][PASSED] - Record_mobile: Test Cases/Demo_recordmobile/Recordmobile_testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Record_desktop" tests="1" failures="0" errors="0" time="218.179" skipped="0" timestamp="2022-08-31 10:55:07" hostname="upadh - 192.168.1.38" id="Test Suites/Desktop_testsuite/Record_desktop">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Desktop_testsuite\\Record_desktop\\20220831_104744"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Desktop_testsuite\\Record_desktop\\20220831_104744\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recorddesktop/Record_testcase" time="210.003" classname="Test Cases/Demo_recorddesktop/Record_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 10:55:15 - [TEST_CASE][PASSED] - Test Cases/Demo_recorddesktop/Record_testcase: Test Cases/Demo_recorddesktop/Record_testcase
+
+2022-08-31 10:55:39 - [TEST_STEP][PASSED] - startApplicationWithTitle(Url, "Orders - Untitled"): The application at location: C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe started.
+
+2022-08-31 10:55:46 - [MESSAGE][INFO] - Starting application C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe on the local machine at address http://127.0.0.1:4723
+
+2022-08-31 10:56:24 - [MESSAGE][PASSED] - The application at location: C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe started.
+
+2022-08-31 10:56:24 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Button")): Click on element: Object Repository/Demo_recorddesktop/Button succesfully
+
+2022-08-31 10:56:31 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Button
+
+2022-08-31 10:56:32 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Button succesfully
+
+2022-08-31 10:56:32 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit")): Click on element: Object Repository/Demo_recorddesktop/Edit succesfully
+
+2022-08-31 10:56:37 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit
+
+2022-08-31 10:56:37 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit succesfully
+
+2022-08-31 10:56:37 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit"), Customername): Text JAI is set
+
+2022-08-31 10:56:50 - [MESSAGE][PASSED] - Text JAI is set
+
+2022-08-31 10:56:50 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(1)")): Click on element: Object Repository/Demo_recorddesktop/Edit(1) succesfully
+
+2022-08-31 10:56:55 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(1)
+
+2022-08-31 10:56:56 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(1) succesfully
+
+2022-08-31 10:56:56 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(1)"), street): Text HUDA is set
+
+2022-08-31 10:57:09 - [MESSAGE][PASSED] - Text HUDA is set
+
+2022-08-31 10:57:09 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(2)")): Click on element: Object Repository/Demo_recorddesktop/Edit(2) succesfully
+
+2022-08-31 10:57:13 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(2)
+
+2022-08-31 10:57:14 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(2) succesfully
+
+2022-08-31 10:57:14 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(2)"), city): Text FARIDABAD is set
+
+2022-08-31 10:57:26 - [MESSAGE][PASSED] - Text FARIDABAD is set
+
+2022-08-31 10:57:26 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(3)")): Click on element: Object Repository/Demo_recorddesktop/Edit(3) succesfully
+
+2022-08-31 10:57:30 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(3)
+
+2022-08-31 10:57:31 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(3) succesfully
+
+2022-08-31 10:57:31 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(3)"), state): Text HARYANA is set
+
+2022-08-31 10:57:41 - [MESSAGE][PASSED] - Text HARYANA is set
+
+2022-08-31 10:57:41 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(4)")): Click on element: Object Repository/Demo_recorddesktop/Edit(4) succesfully
+
+2022-08-31 10:57:44 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(4)
+
+2022-08-31 10:57:45 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(4) succesfully
+
+2022-08-31 10:57:45 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(4)"), zip): Text 121004 is set
+
+2022-08-31 10:57:55 - [MESSAGE][PASSED] - Text 121004 is set
+
+2022-08-31 10:57:55 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/RadioButton")): Click on element: Object Repository/Demo_recorddesktop/RadioButton succesfully
+
+2022-08-31 10:57:58 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/RadioButton
+
+2022-08-31 10:57:59 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/RadioButton succesfully
+
+2022-08-31 10:57:59 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(5)")): Click on element: Object Repository/Demo_recorddesktop/Edit(5) succesfully
+
+2022-08-31 10:58:03 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(5)
+
+2022-08-31 10:58:03 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(5) succesfully
+
+2022-08-31 10:58:03 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(5)"), cardnumber): Text 123456789 is set
+
+2022-08-31 10:58:14 - [MESSAGE][PASSED] - Text 123456789 is set
+
+2022-08-31 10:58:14 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Pane")): Click on element: Object Repository/Demo_recorddesktop/Pane succesfully
+
+2022-08-31 10:58:18 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Pane
+
+2022-08-31 10:58:19 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Pane succesfully
+
+2022-08-31 10:58:19 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Pane"), expirationdate): Text 04/06/2014 is set
+
+2022-08-31 10:58:35 - [MESSAGE][PASSED] - Text 04/06/2014 is set
+
+2022-08-31 10:58:35 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Button(1)")): Click on element: Object Repository/Demo_recorddesktop/Button(1) succesfully
+
+2022-08-31 10:58:39 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Button(1)
+
+2022-08-31 10:58:40 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Button(1) succesfully
+
+2022-08-31 10:58:40 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-08-31 10:58:45 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-31 10:55:07 - [TEST_SUITE][PASSED] - Record_desktop: Test Cases/Demo_recorddesktop/Record_testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Recordspy_web" tests="2" failures="0" errors="0" time="252.888" skipped="0" timestamp="2022-08-31 10:59:33" hostname="upadh - 192.168.1.38" id="Test Suites/Web_testsuite/Recordspy_web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Web_testsuite\\Recordspy_web\\20220831_104749"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Web_testsuite\\Recordspy_web\\20220831_104749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="sessionId" value="68f1b23d86f34631be4decb7f649c75b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recordweb/Recordweb_testcase" time="103.804" classname="Test Cases/Demo_recordweb/Recordweb_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 10:59:35 - [TEST_CASE][PASSED] - Test Cases/Demo_recordweb/Recordweb_testcase: Test Cases/Demo_recordweb/Recordweb_testcase
+
+2022-08-31 10:59:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-31 10:59:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-31 10:59:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-31 11:00:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-31 11:00:03 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-08-31 11:00:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-08-31 11:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2022-08-31 11:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2022-08-31 11:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-08-31 11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-08-31 11:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username"), Username): Text 'John Doe' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username'
+
+2022-08-31 11:00:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username'
+
+2022-08-31 11:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-08-31 11:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-08-31 11:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password'
+
+2022-08-31 11:00:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password'
+
+2022-08-31 11:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-31 11:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-31 11:00:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-08-31 11:00:50 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-08-31 11:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-08-31 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-08-31 11:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2022-08-31 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2022-08-31 11:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2022-08-31 11:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2022-08-31 11:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10' is clicked on
+
+2022-08-31 11:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10' is clicked on
+
+2022-08-31 11:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment"), Comment): Text 'Hello' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-08-31 11:00:57 - [MESSAGE][PASSED] - Text 'Hello' is set on object 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-08-31 11:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-31 11:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-31 11:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2022-08-31 11:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo_spyweb/Spyweb_testcase" time="145.61" classname="Test Cases/Demo_spyweb/Spyweb_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 11:01:20 - [TEST_CASE][PASSED] - Test Cases/Demo_spyweb/Spyweb_testcase: Test Cases/Demo_spyweb/Spyweb_testcase
+
+2022-08-31 11:01:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-31 11:01:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-31 11:02:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-31 11:02:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-31 11:02:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-31 11:02:27 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-08-31 11:02:32 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-08-31 11:02:32 - [TEST_STEP][PASSED] - setText(findTestObject("Demo_spyweb/Page_OrangeHRM/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Username_username'
+
+2022-08-31 11:02:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Username_username'
+
+2022-08-31 11:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("Demo_spyweb/Page_OrangeHRM/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Password_password'
+
+2022-08-31 11:02:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Demo_spyweb/Page_OrangeHRM/input_Password_password'
+
+2022-08-31 11:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Demo_spyweb/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/button_Login' is clicked on
+
+2022-08-31 11:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/button_Login' is clicked on
+
+2022-08-31 11:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Demo_spyweb/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout' is clicked on
+
+2022-08-31 11:03:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/header/div/div[2]/ul/li/ul/li[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-31 11:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout'. Try using Self-healing.
+
+2022-08-31 11:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/preceding::a[1]'.
+
+2022-08-31 11:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout' is clicked on
+
+2022-08-31 11:03:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-31 11:03:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-31 10:59:33 - [TEST_SUITE][PASSED] - Recordspy_web: Test Cases/Demo_spyweb/Spyweb_testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

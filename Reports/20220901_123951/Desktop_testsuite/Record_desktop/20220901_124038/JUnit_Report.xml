@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Record_desktop" time="680.879" tests="1" failures="0" errors="0">
+   <testsuite name="Record_desktop" tests="1" failures="0" errors="0" time="680.879" skipped="0" timestamp="2022-09-01 12:41:45" hostname="upadh - 192.168.1.38" id="Test Suites/Desktop_testsuite/Record_desktop">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220901_123951\\Desktop_testsuite\\Record_desktop\\20220901_124038"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220901_123951\\Desktop_testsuite\\Record_desktop\\20220901_124038\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recorddesktop/Record_testcase" time="497.557" classname="Test Cases/Demo_recorddesktop/Record_testcase" status="PASSED">
+         <system-out><![CDATA[2022-09-01 12:44:48 - [TEST_CASE][PASSED] - Test Cases/Demo_recorddesktop/Record_testcase: Test Cases/Demo_recorddesktop/Record_testcase
+
+2022-09-01 12:44:49 - [TEST_STEP][PASSED] - startApplicationWithTitle(Url, "Orders - Untitled"): The application at location: C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe started.
+
+2022-09-01 12:44:49 - [MESSAGE][INFO] - Starting application C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe on the local machine at address http://127.0.0.1:4723
+
+2022-09-01 12:45:22 - [MESSAGE][PASSED] - The application at location: C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe started.
+
+2022-09-01 12:45:22 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Button")): Click on element: Object Repository/Demo_recorddesktop/Button succesfully
+
+2022-09-01 12:45:59 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Button
+
+2022-09-01 12:46:06 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Button succesfully
+
+2022-09-01 12:46:07 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit")): Click on element: Object Repository/Demo_recorddesktop/Edit succesfully
+
+2022-09-01 12:46:30 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit
+
+2022-09-01 12:46:32 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit succesfully
+
+2022-09-01 12:46:32 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit"), Customername): Text JAI is set
+
+2022-09-01 12:47:47 - [MESSAGE][PASSED] - Text JAI is set
+
+2022-09-01 12:47:47 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(1)")): Click on element: Object Repository/Demo_recorddesktop/Edit(1) succesfully
+
+2022-09-01 12:48:25 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(1)
+
+2022-09-01 12:48:26 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(1) succesfully
+
+2022-09-01 12:48:27 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(1)"), street): Text HUDA is set
+
+2022-09-01 12:49:17 - [MESSAGE][PASSED] - Text HUDA is set
+
+2022-09-01 12:49:17 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(2)")): Click on element: Object Repository/Demo_recorddesktop/Edit(2) succesfully
+
+2022-09-01 12:49:48 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(2)
+
+2022-09-01 12:49:54 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(2) succesfully
+
+2022-09-01 12:49:56 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(2)"), city): Text FARIDABAD is set
+
+2022-09-01 12:50:37 - [MESSAGE][PASSED] - Text FARIDABAD is set
+
+2022-09-01 12:50:37 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(3)")): Click on element: Object Repository/Demo_recorddesktop/Edit(3) succesfully
+
+2022-09-01 12:50:49 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(3)
+
+2022-09-01 12:50:50 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(3) succesfully
+
+2022-09-01 12:50:51 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(3)"), state): Text HARYANA is set
+
+2022-09-01 12:51:27 - [MESSAGE][PASSED] - Text HARYANA is set
+
+2022-09-01 12:51:28 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(4)")): Click on element: Object Repository/Demo_recorddesktop/Edit(4) succesfully
+
+2022-09-01 12:51:37 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(4)
+
+2022-09-01 12:51:39 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(4) succesfully
+
+2022-09-01 12:51:39 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(4)"), zip): Text 121004 is set
+
+2022-09-01 12:52:10 - [MESSAGE][PASSED] - Text 121004 is set
+
+2022-09-01 12:52:10 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/RadioButton")): Click on element: Object Repository/Demo_recorddesktop/RadioButton succesfully
+
+2022-09-01 12:52:15 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/RadioButton
+
+2022-09-01 12:52:15 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/RadioButton succesfully
+
+2022-09-01 12:52:15 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(5)")): Click on element: Object Repository/Demo_recorddesktop/Edit(5) succesfully
+
+2022-09-01 12:52:19 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(5)
+
+2022-09-01 12:52:20 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(5) succesfully
+
+2022-09-01 12:52:20 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(5)"), cardnumber): Text 123456789 is set
+
+2022-09-01 12:52:36 - [MESSAGE][PASSED] - Text 123456789 is set
+
+2022-09-01 12:52:36 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Pane")): Click on element: Object Repository/Demo_recorddesktop/Pane succesfully
+
+2022-09-01 12:52:42 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Pane
+
+2022-09-01 12:52:42 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Pane succesfully
+
+2022-09-01 12:52:42 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Pane"), expirationdate): Text 04/06/2014 is set
+
+2022-09-01 12:52:55 - [MESSAGE][PASSED] - Text 04/06/2014 is set
+
+2022-09-01 12:52:55 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Button(1)")): Click on element: Object Repository/Demo_recorddesktop/Button(1) succesfully
+
+2022-09-01 12:53:00 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Button(1)
+
+2022-09-01 12:53:00 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Button(1) succesfully
+
+2022-09-01 12:53:00 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-09-01 12:53:06 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-01 12:41:45 - [TEST_SUITE][FAILED] - Record_desktop: Test Cases/Demo_recorddesktop/Record_testcase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected condition failed: waiting for com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1@6ceb7b5e (tried for 30 second(s) with 50 milliseconds interval) (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1@6ceb7b5e (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:120)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:77)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:69)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.click(WindowsActionHelper.java:248)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$click$0.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+	at Record_testcase.run(Record_testcase:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662016238361.run(TempTestSuite1662016238361.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-N8QU086', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: C:\Users\upadh\Katalon Stud..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: D1C75969-E5CB-495C-A7F8-9956B222769F
+*** Element info: {Using=xpath, value=/Window/Window[1]/Group[1]/Edit[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElementByXPath(WindowsDriver.java:1)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:136)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:120)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:77)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:69)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.click(WindowsActionHelper.java:248)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$click$0.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+	at Script1661661225342.run(Script1661661225342.groovy:24)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:91)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+	at Record_testcase.run(Record_testcase:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662016238361.run(TempTestSuite1662016238361.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1@6ceb7b5e (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:120)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:77)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:69)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.click(WindowsActionHelper.java:248)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$click$0.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-N8QU086', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: C:\Users\upadh\Katalon Stud..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: D1C75969-E5CB-495C-A7F8-9956B222769F
+*** Element info: {Using=xpath, value=/Window/Window[1]/Group[1]/Edit[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElementByXPath(WindowsDriver.java:1)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:136)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more]]></system-out>
+      <system-err><![CDATA[2022-09-01 12:41:45 - [TEST_SUITE][FAILED] - Record_desktop: Test Cases/Demo_recorddesktop/Record_testcase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected condition failed: waiting for com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1@6ceb7b5e (tried for 30 second(s) with 50 milliseconds interval) (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1@6ceb7b5e (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:120)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:77)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:69)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.click(WindowsActionHelper.java:248)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$click$0.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+	at Record_testcase.run(Record_testcase:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662016238361.run(TempTestSuite1662016238361.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-N8QU086', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: C:\Users\upadh\Katalon Stud..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: D1C75969-E5CB-495C-A7F8-9956B222769F
+*** Element info: {Using=xpath, value=/Window/Window[1]/Group[1]/Edit[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElementByXPath(WindowsDriver.java:1)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:136)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:120)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:77)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:69)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.click(WindowsActionHelper.java:248)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$click$0.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+	at Script1661661225342.run(Script1661661225342.groovy:24)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:91)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+	at Record_testcase.run(Record_testcase:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662016238361.run(TempTestSuite1662016238361.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1@6ceb7b5e (tried for 30 second(s) with 50 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:120)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:77)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.findElement(WindowsActionHelper.java:69)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper.click(WindowsActionHelper.java:248)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$click$0.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-N8QU086', ip: '192.168.1.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: C:\Users\upadh\Katalon Stud..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: D1C75969-E5CB-495C-A7F8-9956B222769F
+*** Element info: {Using=xpath, value=/Window/Window[1]/Group[1]/Edit[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.findElementByXPath(WindowsDriver.java:1)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:136)
+	at com.kms.katalon.core.windows.keyword.helper.WindowsActionHelper$1.apply(WindowsActionHelper.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more]]></system-err>
+   </testsuite>
+</testsuites>

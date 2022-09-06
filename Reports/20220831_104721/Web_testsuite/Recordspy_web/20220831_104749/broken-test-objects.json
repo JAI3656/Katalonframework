@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/header/div/div[2]/ul/li/ul/li[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Configuration\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220831_104721/Web_testsuite/Recordspy_web/20220831_104749/Object Repository/Demo_spyweb/Page_OrangeHRM/a_Logout_neighbor.png"
+    }
+  ]
+}

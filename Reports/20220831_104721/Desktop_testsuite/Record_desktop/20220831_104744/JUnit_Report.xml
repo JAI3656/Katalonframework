@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Record_desktop" time="218.179" tests="1" failures="0" errors="0">
+   <testsuite name="Record_desktop" tests="1" failures="0" errors="0" time="218.179" skipped="0" timestamp="2022-08-31 10:55:07" hostname="upadh - 192.168.1.38" id="Test Suites/Desktop_testsuite/Record_desktop">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Desktop_testsuite\\Record_desktop\\20220831_104744"/>
+         <property name="logFiles" value="C:\\Users\\upadh\\Katalon Studio\\Katalonframework\\Reports\\20220831_104721\\Desktop_testsuite\\Record_desktop\\20220831_104744\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="upadh - 192.168.1.38"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/Demo_recorddesktop/Record_testcase" time="210.003" classname="Test Cases/Demo_recorddesktop/Record_testcase" status="PASSED">
+         <system-out><![CDATA[2022-08-31 10:55:15 - [TEST_CASE][PASSED] - Test Cases/Demo_recorddesktop/Record_testcase: Test Cases/Demo_recorddesktop/Record_testcase
+
+2022-08-31 10:55:39 - [TEST_STEP][PASSED] - startApplicationWithTitle(Url, "Orders - Untitled"): The application at location: C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe started.
+
+2022-08-31 10:55:46 - [MESSAGE][INFO] - Starting application C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe on the local machine at address http://127.0.0.1:4723
+
+2022-08-31 10:56:24 - [MESSAGE][PASSED] - The application at location: C:\Users\upadh\Katalon Studio\Katalonframework\Application\Orders.exe started.
+
+2022-08-31 10:56:24 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Button")): Click on element: Object Repository/Demo_recorddesktop/Button succesfully
+
+2022-08-31 10:56:31 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Button
+
+2022-08-31 10:56:32 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Button succesfully
+
+2022-08-31 10:56:32 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit")): Click on element: Object Repository/Demo_recorddesktop/Edit succesfully
+
+2022-08-31 10:56:37 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit
+
+2022-08-31 10:56:37 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit succesfully
+
+2022-08-31 10:56:37 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit"), Customername): Text JAI is set
+
+2022-08-31 10:56:50 - [MESSAGE][PASSED] - Text JAI is set
+
+2022-08-31 10:56:50 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(1)")): Click on element: Object Repository/Demo_recorddesktop/Edit(1) succesfully
+
+2022-08-31 10:56:55 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(1)
+
+2022-08-31 10:56:56 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(1) succesfully
+
+2022-08-31 10:56:56 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(1)"), street): Text HUDA is set
+
+2022-08-31 10:57:09 - [MESSAGE][PASSED] - Text HUDA is set
+
+2022-08-31 10:57:09 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(2)")): Click on element: Object Repository/Demo_recorddesktop/Edit(2) succesfully
+
+2022-08-31 10:57:13 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(2)
+
+2022-08-31 10:57:14 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(2) succesfully
+
+2022-08-31 10:57:14 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(2)"), city): Text FARIDABAD is set
+
+2022-08-31 10:57:26 - [MESSAGE][PASSED] - Text FARIDABAD is set
+
+2022-08-31 10:57:26 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(3)")): Click on element: Object Repository/Demo_recorddesktop/Edit(3) succesfully
+
+2022-08-31 10:57:30 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(3)
+
+2022-08-31 10:57:31 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(3) succesfully
+
+2022-08-31 10:57:31 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(3)"), state): Text HARYANA is set
+
+2022-08-31 10:57:41 - [MESSAGE][PASSED] - Text HARYANA is set
+
+2022-08-31 10:57:41 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(4)")): Click on element: Object Repository/Demo_recorddesktop/Edit(4) succesfully
+
+2022-08-31 10:57:44 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(4)
+
+2022-08-31 10:57:45 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(4) succesfully
+
+2022-08-31 10:57:45 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(4)"), zip): Text 121004 is set
+
+2022-08-31 10:57:55 - [MESSAGE][PASSED] - Text 121004 is set
+
+2022-08-31 10:57:55 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/RadioButton")): Click on element: Object Repository/Demo_recorddesktop/RadioButton succesfully
+
+2022-08-31 10:57:58 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/RadioButton
+
+2022-08-31 10:57:59 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/RadioButton succesfully
+
+2022-08-31 10:57:59 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(5)")): Click on element: Object Repository/Demo_recorddesktop/Edit(5) succesfully
+
+2022-08-31 10:58:03 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Edit(5)
+
+2022-08-31 10:58:03 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Edit(5) succesfully
+
+2022-08-31 10:58:03 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Edit(5)"), cardnumber): Text 123456789 is set
+
+2022-08-31 10:58:14 - [MESSAGE][PASSED] - Text 123456789 is set
+
+2022-08-31 10:58:14 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Pane")): Click on element: Object Repository/Demo_recorddesktop/Pane succesfully
+
+2022-08-31 10:58:18 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Pane
+
+2022-08-31 10:58:19 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Pane succesfully
+
+2022-08-31 10:58:19 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Demo_recorddesktop/Pane"), expirationdate): Text 04/06/2014 is set
+
+2022-08-31 10:58:35 - [MESSAGE][PASSED] - Text 04/06/2014 is set
+
+2022-08-31 10:58:35 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Demo_recorddesktop/Button(1)")): Click on element: Object Repository/Demo_recorddesktop/Button(1) succesfully
+
+2022-08-31 10:58:39 - [MESSAGE][INFO] - Clicking on element: Object Repository/Demo_recorddesktop/Button(1)
+
+2022-08-31 10:58:40 - [MESSAGE][PASSED] - Click on element: Object Repository/Demo_recorddesktop/Button(1) succesfully
+
+2022-08-31 10:58:40 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-08-31 10:58:45 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-31 10:55:07 - [TEST_SUITE][PASSED] - Record_desktop: Test Cases/Demo_recorddesktop/Record_testcase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

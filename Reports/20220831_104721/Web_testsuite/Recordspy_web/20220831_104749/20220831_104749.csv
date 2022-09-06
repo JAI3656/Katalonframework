@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Recordspy_web,Chrome 104.0.5112.102,,,2022-08-31 10:59:33,2022-08-31 11:03:46,4m - 12.888s,PASSED
+,,,,,,,
+Test Cases/Demo_recordweb/Recordweb_testcase,Chrome 104.0.5112.102,,,2022-08-31 10:59:35,2022-08-31 11:01:18,1m - 43.804s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.102,,,2022-08-31 10:59:37,2022-08-31 11:00:03,25.804s,PASSED
+navigateToUrl(Url),Chrome 104.0.5112.102,,,2022-08-31 11:00:03,2022-08-31 11:00:08,5.191s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/h3_We Care About Your Health""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:08,2022-08-31 11:00:23,14.840s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:23,2022-08-31 11:00:29,6.823s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 104.0.5112.102,,,2022-08-31 11:00:29,2022-08-31 11:00:34,4.234s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:34,2022-08-31 11:00:36,1.888s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 104.0.5112.102,,,2022-08-31 11:00:36,2022-08-31 11:00:37,1.800s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Login""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:37,2022-08-31 11:00:43,5.933s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 104.0.5112.102,,,2022-08-31 11:00:43,2022-08-31 11:00:50,6.927s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:50,2022-08-31 11:00:53,2.236s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:53,2022-08-31 11:00:53,0.942s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:53,2022-08-31 11:00:54,0.885s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/td_10""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:54,2022-08-31 11:00:55,0.804s,PASSED
+"setText(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/textarea_Comment_comment""), Comment)",Chrome 104.0.5112.102,,,2022-08-31 11:00:55,2022-08-31 11:00:57,1.459s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 104.0.5112.102,,,2022-08-31 11:00:57,2022-08-31 11:01:13,16.765s,PASSED
+"click(findTestObject(""Object Repository/Demo_recordweb/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 104.0.5112.102,,,2022-08-31 11:01:13,2022-08-31 11:01:18,4.963s,PASSED
+,,,,,,,
+Test Cases/Demo_spyweb/Spyweb_testcase,Chrome 104.0.5112.102,,,2022-08-31 11:01:20,2022-08-31 11:03:46,2m - 25.610s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.102,,,2022-08-31 11:01:26,2022-08-31 11:02:27,1m - 1.120s,PASSED
+navigateToUrl(Url),Chrome 104.0.5112.102,,,2022-08-31 11:02:27,2022-08-31 11:02:32,4.849s,PASSED
+"setText(findTestObject(""Demo_spyweb/Page_OrangeHRM/input_Username_username""), Username)",Chrome 104.0.5112.102,,,2022-08-31 11:02:32,2022-08-31 11:02:35,3.582s,PASSED
+"setText(findTestObject(""Demo_spyweb/Page_OrangeHRM/input_Password_password""), Password)",Chrome 104.0.5112.102,,,2022-08-31 11:02:35,2022-08-31 11:02:37,2.158s,PASSED
+"click(findTestObject(""Demo_spyweb/Page_OrangeHRM/button_Login""))",Chrome 104.0.5112.102,,,2022-08-31 11:02:37,2022-08-31 11:02:38,0.838s,PASSED
+"click(findTestObject(""Demo_spyweb/Page_OrangeHRM/a_Logout""))",Chrome 104.0.5112.102,,,2022-08-31 11:02:38,2022-08-31 11:03:28,50.105s,PASSED
+closeBrowser(),Chrome 104.0.5112.102,,,2022-08-31 11:03:28,2022-08-31 11:03:46,17.361s,PASSED
